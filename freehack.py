@@ -61,7 +61,7 @@ s = smtplib.SMTP_SSL('smtp.gmail.com', 465, context = context)
 #s.starttls() 
 
 
-sa = 'leorenard156@gmail.com'
+sa = 'leorenard165@gmail.com'
 kl = 'Bernard8.0'
 s.login(sa, kl) 
 
